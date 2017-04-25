@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/layout-v11/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/layout-v11/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    }
+]

@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:6:22-76
+application
+ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:8:5-22:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/shahd/.android/build-cache/2350ed1b9c0fc72f1b7151ee2b5f8cf05a32bad2/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/shahd/.android/build-cache/b9b5a513db90d1afe6953fb2985aa1b0976df987/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/shahd/.android/build-cache/f726ed5cc15c5a6230258f28a0279d22add65941/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/shahd/.android/build-cache/0ce9060aa5b11a09d5e3e342c9846a818a3e9867/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/shahd/.android/build-cache/bd16c60bbe42b1cc59d42a047f4346169ef99275/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/shahd/.android/build-cache/40b46928c6e56ee3c0bd1c2c869d4cc2b4c92489/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/shahd/.android/build-cache/0302d6b6668a8c3ca93eb7da57d8561dd34675ff/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/shahd/.android/build-cache/4ea60190602b894a546749df00e9f6e1a1670c25/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/shahd/.android/build-cache/a99cc20a3b0b695eeb73e9ab4f352d046f522e52/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:13:9-35
+	android:roundIcon
+		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:12:9-54
+	android:allowBackup
+		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:14:9-40
+activity#com.udacity.shahd.booklisting.MainActivity
+ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:15:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /Users/shahd/.android/build-cache/2350ed1b9c0fc72f1b7151ee2b5f8cf05a32bad2/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/shahd/.android/build-cache/b9b5a513db90d1afe6953fb2985aa1b0976df987/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/shahd/.android/build-cache/f726ed5cc15c5a6230258f28a0279d22add65941/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/shahd/.android/build-cache/0ce9060aa5b11a09d5e3e342c9846a818a3e9867/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/shahd/.android/build-cache/bd16c60bbe42b1cc59d42a047f4346169ef99275/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/shahd/.android/build-cache/40b46928c6e56ee3c0bd1c2c869d4cc2b4c92489/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/shahd/.android/build-cache/0302d6b6668a8c3ca93eb7da57d8561dd34675ff/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] /Users/shahd/.android/build-cache/4ea60190602b894a546749df00e9f6e1a1670c25/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/shahd/.android/build-cache/a99cc20a3b0b695eeb73e9ab4f352d046f522e52/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/shahd/.android/build-cache/2350ed1b9c0fc72f1b7151ee2b5f8cf05a32bad2/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/shahd/.android/build-cache/b9b5a513db90d1afe6953fb2985aa1b0976df987/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/shahd/.android/build-cache/f726ed5cc15c5a6230258f28a0279d22add65941/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/shahd/.android/build-cache/0ce9060aa5b11a09d5e3e342c9846a818a3e9867/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/shahd/.android/build-cache/bd16c60bbe42b1cc59d42a047f4346169ef99275/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/shahd/.android/build-cache/40b46928c6e56ee3c0bd1c2c869d4cc2b4c92489/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/shahd/.android/build-cache/0302d6b6668a8c3ca93eb7da57d8561dd34675ff/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/shahd/.android/build-cache/4ea60190602b894a546749df00e9f6e1a1670c25/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/AndroidManifest.xml:26:9-47

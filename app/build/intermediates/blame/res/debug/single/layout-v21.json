@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

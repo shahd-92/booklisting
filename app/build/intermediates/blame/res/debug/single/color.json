@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/shahd/Dropbox/udacity/BookListing/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    }
+]
