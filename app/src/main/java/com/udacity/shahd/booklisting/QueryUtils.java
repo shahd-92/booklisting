@@ -153,22 +153,25 @@ public final class QueryUtils {
             // TODO: Parse the response given by the SAMPLE_JSON_RESPONSE string and
             // build up a list of book objects with the corresponding data.
             JSONObject jsonObj = new JSONObject(bookJSON);
+
             // Getting JSON Array node
             JSONArray items = jsonObj.optJSONArray("items");
             // looping through All Contacts
-            for (int i = 0; i < items.length(); i++) {
-                JSONObject book = items.optJSONObject(i);
-                JSONObject volumeInfo = book.optJSONObject("volumeInfo");
-                String title="";
-                String description="";
-                title = volumeInfo.optString("title");
-                description = volumeInfo.optString("description");
-                // Create a new {@link Book} object with the title, description, selfLink,
-                // and url from the JSON response.
-                if (title!=""&&description!="") {
-                    books.add(new Book(title, description));
+            if (items != null) {
+                for (int i = 0; i < items.length(); i++) {
+                    JSONObject book = items.optJSONObject(i);
+                    JSONObject volumeInfo = book.optJSONObject("volumeInfo");
+                    String title = "";
+                    String description = "";
+                    title = volumeInfo.optString("title");
+                    description = volumeInfo.optString("description");
+                    // Create a new {@link Book} object with the title, description, selfLink,
+                    // and url from the JSON response.
+                    if (title != "" && description != "") {
+                        books.add(new Book(title, description));
+                    }
                 }
-            }
+                }
         } catch (JSONException e) {
             // If an error is thrown when executing any of the above statements in the "try" block,
             // catch the exception here, so the app doesn't crash. Print a log message

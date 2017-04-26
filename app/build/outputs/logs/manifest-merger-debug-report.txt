@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:3:5-44
 		INJECTED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest
 	android:name
 		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:8:5-22:19
+ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:8:5-23:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /Users/shahd/.android/build-cache/2350ed1b9c0fc72f1b7151ee2b5f8cf05a32bad2/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/shahd/.android/build-cache/b9b5a513db90d1afe6953fb2985aa1b0976df987/output/AndroidManifest.xml:29:5-20
@@ -46,19 +46,21 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/shah
 	android:theme
 		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:14:9-40
 activity#com.udacity.shahd.booklisting.MainActivity
-ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:15:9-21:20
+ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:15:9-22:20
+	android:configChanges
+		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:16:13-74
 	android:name
 		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:15:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:16:13-20:29
+ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml:20:27-74
 uses-sdk
 INJECTED from /Users/shahd/Dropbox/udacity/BookListing/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/shahd/.android/build-cache/876583b095d9145bd837d95fa21c0ebdd828d8ac/output/AndroidManifest.xml:21:5-23:78

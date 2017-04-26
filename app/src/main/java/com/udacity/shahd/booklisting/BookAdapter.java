@@ -17,7 +17,6 @@ import java.util.List;
 
 public class BookAdapter extends ArrayAdapter<Book> {
 
-    private static final String LOCATION_SEPARATOR = " of ";
 
     public BookAdapter(@NonNull Context context, @NonNull List<Book> books) {
         super(context, 0, books);
@@ -34,7 +33,7 @@ public class BookAdapter extends ArrayAdapter<Book> {
         }
         final Book currentEarthquake = getItem(position);
         String title = currentEarthquake.getmTitle();
-        String description =currentEarthquake.getmDescription();
+        String description = currentEarthquake.getmDescription();
 
         TextView titleTextView = (TextView) listItemView.findViewById(R.id.book_title);
         TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.book_description);
@@ -44,7 +43,6 @@ public class BookAdapter extends ArrayAdapter<Book> {
 
         return listItemView;
     }
-
 
 
 }

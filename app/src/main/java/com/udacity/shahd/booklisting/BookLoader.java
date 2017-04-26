@@ -13,16 +13,17 @@ public class BookLoader extends AsyncTaskLoader<List<Book>> {
 
 
     /** Tag for log messages */
-    private static final String LOG_TAG = BookLoader.class.getName();
 
-    /** Query URL */
+    /**
+     * Query URL
+     */
     private String mUrl;
 
     /**
      * Constructs a new {@link BookLoader}.
      *
      * @param context of the activity
-     * @param url to load data from
+     * @param url     to load data from
      */
     public BookLoader(Context context, String url) {
         super(context);
@@ -43,9 +44,9 @@ public class BookLoader extends AsyncTaskLoader<List<Book>> {
             return null;
         }
 
-        // Perform the network request, parse the response, and extract a list of earthquakes.
-        List<Book> earthquakes = QueryUtils.fetchBookData(mUrl);
-        return earthquakes;
+        // Perform the network request, parse the response, and extract a list of books.
+        List<Book> books = QueryUtils.fetchBookData(mUrl);
+        return books;
     }
 
 }

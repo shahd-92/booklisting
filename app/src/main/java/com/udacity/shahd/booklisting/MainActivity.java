@@ -20,16 +20,18 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<List<Book>> {
     public static final String LOG_TAG = MainActivity.class.getName();
     private final static String REQUEST_URL = "https://www.googleapis.com/books/v1/volumes?fields=items/volumeInfo/description,items/volumeInfo/title&q=";
-    private  String full_url ;
-    private BookAdapter adapter;
-    /** TextView that is displayed when the list is empty */
-    private TextView mEmptyStateTextView;
-    private View loadingIndicator;
     /**
-     * Constant value for the earthquake loader ID. We can choose any integer.
+     * Constant value for the books loader ID. We can choose any integer.
      * This really only comes into play if you're using multiple loaders.
      */
     private static final int BOOK_LOADER_ID = 1;
+    private String full_url;
+    private BookAdapter adapter;
+    /**
+     * TextView that is displayed when the list is empty
+     */
+    private TextView mEmptyStateTextView;
+    private View loadingIndicator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,45 +40,34 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         loadingIndicator = findViewById(R.id.loading_indicator);
         loadingIndicator.setVisibility(View.GONE);
 
-        ListView earthquakeListView = (ListView) findViewById(R.id.list);
+        ListView bookListView = (ListView) findViewById(R.id.list);
 
         mEmptyStateTextView = (TextView) findViewById(R.id.empty_view);
-        earthquakeListView.setEmptyView(mEmptyStateTextView);
-        // Create a new {@link ArrayAdapter} of earthquakes
+        bookListView.setEmptyView(mEmptyStateTextView);
+        // Create a new {@link ArrayAdapter} of books
         adapter = new BookAdapter(this, new ArrayList<Book>());
 
         // Set the adapter on the {@link ListView}
         // so the list can be populated in the user interface
-        earthquakeListView.setAdapter(adapter);
-//        earthquakeListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//            @Override
-//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//                Book current = adapter.getItem(position);
-//                Uri webpage = Uri.parse(current.getmBuyLink());
-//                Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
-//                if (intent.resolveActivity(getPackageManager()) != null) {
-//                    startActivity(intent);
-//                }
-//            }
-//        });
-
+        bookListView.setAdapter(adapter);
+//
         final Button button = (Button) findViewById(R.id.search_button);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                EditText searchEditText = (EditText)findViewById(R.id.search_box);
-                String searchText= String.valueOf(searchEditText.getText());
-                full_url=REQUEST_URL+searchText;
-                Log.d(LOG_TAG,"full url "+full_url);
+                EditText searchEditText = (EditText) findViewById(R.id.search_box);
+                String searchText = String.valueOf(searchEditText.getText());
+                full_url = REQUEST_URL + searchText;
+                Log.d(LOG_TAG, "full url " + full_url);
                 loadingIndicator.setVisibility(View.VISIBLE);
                 startConnection();
-                full_url=REQUEST_URL;
+                full_url = REQUEST_URL;
 
             }
         });
 
     }
 
-    public void startConnection(){
+    public void startConnection() {
         ConnectivityManager connectivityManager =
                 (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
@@ -88,12 +79,11 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             // the bundle. Pass in this activity for the LoaderCallbacks parameter (which is valid
             // because this activity implements the LoaderCallbacks interface).
             loaderManager.initLoader(BOOK_LOADER_ID, null, this);
-        }
-        else {
+        } else {
             // Otherwise, display error
             // First, hide loading indicator so error message will be visible
             loadingIndicator.setVisibility(View.GONE);
-            // Set empty state text to display "No earthquakes found."
+            // Set empty state text to display "No books found."
             mEmptyStateTextView.setText(R.string.no_internet_connection);
         }
 
@@ -106,20 +96,20 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     }
 
     @Override
-    public void onLoadFinished(Loader<List<Book>> loader, List<Book> earthquakes) {
+    public void onLoadFinished(Loader<List<Book>> loader, List<Book> books) {
         // Hide loading indicator because the data has been loaded
         View loadingIndicator = findViewById(R.id.loading_indicator);
         loadingIndicator.setVisibility(View.GONE);
-        // Set empty state text to display "No earthquakes found."
+        // Set empty state text to display "No books found."
         mEmptyStateTextView.setText(R.string.no_books);
 
-        // Clear the adapter of previous earthquake data
+        // Clear the adapter of previous books data
         adapter.clear();
 
         // If there is a valid list of {@link Earthquake}s, then add them to the adapter's
         // data set. This will trigger the ListView to update.
-        if (earthquakes != null && !earthquakes.isEmpty()) {
-            adapter.addAll(earthquakes);
+        if (books != null && !books.isEmpty()) {
+            adapter.addAll(books);
         }
 
     }

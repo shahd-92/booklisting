@@ -7,6 +7,7 @@ package com.udacity.shahd.booklisting;
 public class Book {
     private String mTitle;
     private String mDescription;
+
     public Book(String mTitle, String mDescription) {
         this.mTitle = mTitle;
         this.mDescription = mDescription;
