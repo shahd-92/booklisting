@@ -9,49 +9,8 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15603384-eb23-44bf-ba61-b22bcd296249" name="Default" comment="edits after first review">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/Book.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/Book.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/BookAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/BookAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/QueryUtils.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/QueryUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/udacity/shahd/booklisting/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/mCJoeZpsgpVlwqcCGI10Hrz9ry4=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/mCJoeZpsgpVlwqcCGI10Hrz9ry4=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_fac113f21ae9877e4b97d27c6c22e2b3d659e4e6.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_fac113f21ae9877e4b97d27c6c22e2b3d659e4e6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+    <list default="true" id="15603384-eb23-44bf-ba61-b22bcd296249" name="Default" comment="add the authors field, clear adapter when no connection, and edit the code accourding to the review notes.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/udacity/shahd/booklisting/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/udacity/shahd/booklisting/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/list_item.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/shahd/booklisting/Book.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/shahd/booklisting/Book.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/shahd/booklisting/BookAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/shahd/booklisting/BookAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/shahd/booklisting/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/shahd/booklisting/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/shahd/booklisting/QueryUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/shahd/booklisting/QueryUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="Book Listing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -106,12 +65,12 @@
           </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="169">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
               <folding>
                 <element signature="e#355#371#0" expanded="true" />
                 <element signature="e#737#766#0" expanded="true" />
-                <element signature="e#1123#1152#0" expanded="true" />
-                <element signature="e#1174#1190#0" expanded="true" />
+                <element signature="e#1124#1153#0" expanded="true" />
+                <element signature="e#1175#1191#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,8 +102,10 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/udacity/shahd/booklisting/BookAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
-              <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
-              <folding />
+              <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2486,7 +2447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493243015530</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add the authors field, clear adapter when no connection, and edit the code accourding to the review notes.">
+      <created>1493387155325</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1493387155325</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2541,7 +2509,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="edits after first review" />
-    <option name="LAST_COMMIT_MESSAGE" value="edits after first review" />
+    <MESSAGE value="add the authors field, clear adapter when no connection, and edit the code accourding to the review notes." />
+    <option name="LAST_COMMIT_MESSAGE" value="add the authors field, clear adapter when no connection, and edit the code accourding to the review notes." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -2572,8 +2541,8 @@
           <folding>
             <element signature="e#355#371#0" expanded="true" />
             <element signature="e#737#766#0" expanded="true" />
-            <element signature="e#1123#1152#0" expanded="true" />
-            <element signature="e#1174#1190#0" expanded="true" />
+            <element signature="e#1124#1153#0" expanded="true" />
+            <element signature="e#1175#1191#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2624,7 +2593,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="39" column="99" selection-start-line="39" selection-start-column="99" selection-end-line="39" selection-end-column="99" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2660,8 +2631,8 @@
           <folding>
             <element signature="e#355#371#0" expanded="true" />
             <element signature="e#737#766#0" expanded="true" />
-            <element signature="e#1123#1152#0" expanded="true" />
-            <element signature="e#1174#1190#0" expanded="true" />
+            <element signature="e#1124#1153#0" expanded="true" />
+            <element signature="e#1175#1191#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2712,7 +2683,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="39" column="99" selection-start-line="39" selection-start-column="99" selection-end-line="39" selection-end-column="99" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2792,8 +2765,10 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/udacity/shahd/booklisting/BookAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
-          <folding />
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2832,12 +2807,12 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
           <folding>
             <element signature="e#355#371#0" expanded="true" />
             <element signature="e#737#766#0" expanded="true" />
-            <element signature="e#1123#1152#0" expanded="true" />
-            <element signature="e#1174#1190#0" expanded="true" />
+            <element signature="e#1124#1153#0" expanded="true" />
+            <element signature="e#1175#1191#0" expanded="true" />
           </folding>
         </state>
       </provider>
