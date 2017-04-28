@@ -7,10 +7,12 @@ package com.udacity.shahd.booklisting;
 public class Book {
     private String mTitle;
     private String mDescription;
+    private String mAuthor;
 
-    public Book(String mTitle, String mDescription) {
+    public Book(String mTitle, String mDescription, String mAuthor) {
         this.mTitle = mTitle;
         this.mDescription = mDescription;
+        this.mAuthor = mAuthor;
     }
 
     public String getmTitle() {
@@ -19,6 +21,10 @@ public class Book {
 
     public String getmDescription() {
         return mDescription;
+    }
+
+    public String getmAuthor() {
+        return mAuthor;
     }
 
 }

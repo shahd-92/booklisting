@@ -443,6 +443,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">Book Listing</string>
+    <string name="author">author</string>
     <string name="book_description">book description</string>
     <string name="book_title">book title</string>
     <string name="no_books">No books found.</string>

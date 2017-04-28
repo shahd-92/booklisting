@@ -19,7 +19,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<List<Book>> {
     public static final String LOG_TAG = MainActivity.class.getName();
-    private final static String REQUEST_URL = "https://www.googleapis.com/books/v1/volumes?fields=items/volumeInfo/description,items/volumeInfo/title&q=";
+    private final static String REQUEST_URL = "https://www.googleapis.com/books/v1/volumes?fields=items/volumeInfo/description,items/volumeInfo/authors,items/volumeInfo/title&q=";
     /**
      * Constant value for the books loader ID. We can choose any integer.
      * This really only comes into play if you're using multiple loaders.
@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         loadingIndicator.setVisibility(View.GONE);
 
         ListView bookListView = (ListView) findViewById(R.id.list);
-
         mEmptyStateTextView = (TextView) findViewById(R.id.empty_view);
         bookListView.setEmptyView(mEmptyStateTextView);
         // Create a new {@link ArrayAdapter} of books
@@ -78,11 +77,12 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             // Initialize the loader. Pass in the int ID constant defined above and pass in null for
             // the bundle. Pass in this activity for the LoaderCallbacks parameter (which is valid
             // because this activity implements the LoaderCallbacks interface).
-            loaderManager.initLoader(BOOK_LOADER_ID, null, this);
+            loaderManager.restartLoader(BOOK_LOADER_ID, null, this);
         } else {
             // Otherwise, display error
             // First, hide loading indicator so error message will be visible
             loadingIndicator.setVisibility(View.GONE);
+            adapter.clear();
             // Set empty state text to display "No books found."
             mEmptyStateTextView.setText(R.string.no_internet_connection);
         }

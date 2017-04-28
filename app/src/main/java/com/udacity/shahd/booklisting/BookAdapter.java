@@ -34,12 +34,15 @@ public class BookAdapter extends ArrayAdapter<Book> {
         final Book currentEarthquake = getItem(position);
         String title = currentEarthquake.getmTitle();
         String description = currentEarthquake.getmDescription();
+        String author = currentEarthquake.getmAuthor();
 
         TextView titleTextView = (TextView) listItemView.findViewById(R.id.book_title);
         TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.book_description);
+        TextView authorTextView = (TextView) listItemView.findViewById(R.id.book_author);
 
         titleTextView.setText(title);
         descriptionTextView.setText(description);
+        authorTextView.setText(author);
 
         return listItemView;
     }

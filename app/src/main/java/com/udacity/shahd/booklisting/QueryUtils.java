@@ -163,12 +163,21 @@ public final class QueryUtils {
                     JSONObject volumeInfo = book.optJSONObject("volumeInfo");
                     String title = "";
                     String description = "";
+                    String author = "";
                     title = volumeInfo.optString("title");
                     description = volumeInfo.optString("description");
-                    // Create a new {@link Book} object with the title, description, selfLink,
-                    // and url from the JSON response.
-                    if (title != "" && description != "") {
-                        books.add(new Book(title, description));
+                    JSONArray authors = volumeInfo.optJSONArray("authors");
+                    if (authors != null) {
+                        for (int j = 0; j < authors.length(); j++) {
+                            if (j < (authors.length() - 1)) {
+                                author += authors.get(j);
+                            } else author += authors.get(j) + ", ";
+                        }
+                        // Create a new {@link Book} object with the title, description, selfLink,
+                        // and url from the JSON response.
+                        if (title != "" && description != "") {
+                            books.add(new Book(title, description, author));
+                        }
                     }
                 }
                 }

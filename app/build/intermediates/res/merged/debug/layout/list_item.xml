@@ -20,6 +20,16 @@
         android:paddingBottom="@dimen/title_padding_bottom"
         android:text="@string/book_title"
         android:textSize="16sp" />
+    <TextView
+        android:id="@+id/book_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        android:paddingBottom="@dimen/title_padding_bottom"
+        android:text="@string/author"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/book_description"
